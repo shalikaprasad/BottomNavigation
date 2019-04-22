@@ -7,5 +7,29 @@
     tools:context=".MainActivity">
 
 
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/nav_barf"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        app:menu="@menu/new_items">
+
+
+    </android.support.design.widget.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/frame_layoutf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_above="@id/nav_barf">
+
+    </FrameLayout>
 
 </RelativeLayout>
